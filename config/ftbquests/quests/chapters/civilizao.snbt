@@ -1,0 +1,231 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "civilizao"
+	group: "15CBA2246BFF426C"
+	icon: "minecolonies:blockhuttownhall"
+	id: "4B97B06129F1EA8F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B2C3D4E5F6A7B8C"]
+			description: ["{quest.foundation.university.desc}"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "minecolonies:blockhutuniversity"
+			id: "4CDB68A842972121"
+			rewards: [{
+				id: "2F41D100A0EEAC3A"
+				item: {
+					Count: 1
+					id: "minecolonies:build_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4814CFE4D5A29051"
+					item: "minecolonies:blockhuttownhall"
+					type: "item"
+				}
+				{
+					id: "2BC713F6B2C7930C"
+					item: "minecolonies:blockhutuniversity"
+					type: "item"
+				}
+			]
+			title: "{quest.foundation.university.title}"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CDB68A842972121"]
+			description: ["{quest.foundation.infra.desc}"]
+			icon: "kubejs:refined_gold_frame"
+			id: "30E2C8B3D2E8A5E7"
+			rewards: [
+				{
+					id: "55669C82181488C5"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78CE4F606598AA98"
+					item: "minecolonies:manchet_bread"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F2FABFEFBF4B295"
+					item: "minecolonies:blockhutblacksmith"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "44A2A64C4B7D9A53"
+					item: { Count: 32, id: "kubejs:refined_gold_frame" }
+					type: "item"
+				}
+			]
+			title: "{quest.foundation.infra.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30E2C8B3D2E8A5E7"]
+			description: ["{quest.foundation.gold_eng.desc}"]
+			disable_toast: true
+			id: "136D3F68471277AF"
+			rewards: [{
+				id: "3DC2F6407366CA76"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "64592B57BA3A7B1E"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			title: "{quest.foundation.gold_eng.title}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["136D3F68471277AF"]
+			description: ["{quest.foundation.precision.desc}"]
+			icon: "kubejs:refined_diamond_frame"
+			id: "04C12F4571702645"
+			rewards: [
+				{
+					id: "34BCC539111509BB"
+					item: "mysticalagradditions:supremium_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "16C7E367D2B18AFC"
+					item: "tconstruct:jeweled_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13AE3382722FAA61"
+					item: "minecolonies:blockhutmechanic"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5A2F5E2CEBCAF221"
+					item: { Count: 16, id: "kubejs:refined_diamond_frame" }
+					type: "item"
+				}
+			]
+			title: "{quest.foundation.precision.title}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04C12F4571702645"]
+			description: ["{quest.foundation.dia_eng.desc}"]
+			id: "0D4A26125A4ECD33"
+			rewards: [{
+				id: "48F646E9B403159B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "21E81195CD4E0125"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			title: "{quest.foundation.dia_eng.title}"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D4A26125A4ECD33"]
+			description: ["{quest.foundation.alch_peak.desc}"]
+			icon: "kubejs:refined_emerald_frame"
+			id: "1909BE082B51976C"
+			rewards: [
+				{
+					count: 8
+					id: "18C018B0478DF47C"
+					item: "minecolonies:golden_bread"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "37EF32B132F6AADB"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "204E237EE2C50EA7"
+					item: "minecolonies:blockhutalchemist"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "431117DA986C9A15"
+					item: { Count: 8, id: "kubejs:refined_emerald_frame" }
+					type: "item"
+				}
+			]
+			title: "{quest.foundation.alch_peak.title}"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1909BE082B51976C"]
+			description: ["{quest.foundation.eme_eng.desc}"]
+			hide_until_deps_visible: true
+			id: "6F9290E0E875785C"
+			rewards: [{
+				id: "447EA54144644596"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "4A536A36513BACC0"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			title: "{quest.foundation.eme_eng.title}"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6F9290E0E875785C"
+				"439CE8F45BED8696"
+			]
+			description: ["{quest.foundation.final_eng.desc}"]
+			hide_until_deps_complete: true
+			id: "5C046FE247FA1564"
+			rewards: [{
+				id: "77D4F85D503FB804"
+				item: "avaritia:crystal_matrix"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD5625F9C526190"
+				item: "extendedcrafting:epic_table"
+				type: "item"
+			}]
+			title: "{quest.foundation.final_eng.title}"
+			x: 13.0d
+			y: -2.0d
+		}
+	]
+	title: "{chapter.foundation.title}"
+}

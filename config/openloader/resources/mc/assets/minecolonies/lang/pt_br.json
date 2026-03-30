@@ -1,0 +1,10 @@
+{
+    "minecolonies.research.refined_gold.name": "Engenharia de Ouro Refinado",
+    "minecolonies.research.refined_gold_stage.name": "Desbloqueia o crafting da Advanced Crafting Table",
+    
+    "minecolonies.research.refined_diamond.name": "Engenharia de Diamante Refinado",
+    "minecolonies.research.refined_diamond_stage.name": "Desbloqueia o crafting da Elite Crafting Table",
+    
+    "minecolonies.research.refined_emerald.name": "Engenharia de Esmeralda Refinado",
+    "minecolonies.research.refined_emerald_stage.name": "Desbloqueia o crafting da Ultimate Crafting Table"
+}

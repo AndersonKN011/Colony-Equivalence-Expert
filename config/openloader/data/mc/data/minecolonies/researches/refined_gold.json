@@ -1,0 +1,25 @@
+{
+  "branch": "minecolonies:technology",
+  "name": "minecolonies.research.refined_gold.name",
+  "researchLevel": 1,
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "kubejs:refined_gold_frame",
+      "quantity": 32
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:blacksmith",
+      "level": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "minecolonies:refined_gold_stage"
+    }
+  ],
+  "research-time": 3000
+}

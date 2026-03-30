@@ -1,0 +1,254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "final_star"
+	group: "08FA62CF022A96B1"
+	hide_quest_until_deps_complete: true
+	icon: "projectexpansion:final_star"
+	id: "084CD84A48D9FD87"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1FD5625F9C526190"]
+			hide_until_deps_complete: true
+			id: "5DA4DE6E051CC6D8"
+			rewards: [{
+				id: "4E510AC53BABC051"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6F86AEF119F57E95"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "3BA60A66222BBCAD"
+					item: "extendedcrafting:epic_table"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["686013F1273D58AC"]
+			id: "59850EE891EA142A"
+			tasks: [{
+				id: "5FA61943F601585A"
+				item: "avaritia_delight:infinity_salad"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			description: ["{quest.final.tomato.desc}"]
+			id: "686013F1273D58AC"
+			rewards: [{
+				id: "2A401830297F3850"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:harvest_goddess_band"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1227FAD2B8E65EB0"
+					item: "avaritia_delight:blaze_tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "478ED177EB8B9FBB"
+					item: "avaritia_delight:crystal_cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "6543B99410AC5624"
+					item: "avaritia_delight:neutronium_wheat_seeds"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["686013F1273D58AC"]
+			id: "3F58AEDB6BF35E0E"
+			tasks: [{
+				id: "6B27B20662EF7196"
+				item: "avaritia_delight:pasta_with_cosmic_meatballs"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["686013F1273D58AC"]
+			id: "0D5D22EF0B5DB84B"
+			tasks: [{
+				id: "0C1BAE1C8AEBECB2"
+				item: "avaritia_delight:infinity_large_hamburger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["686013F1273D58AC"]
+			id: "2CAE8E97BC95CE49"
+			tasks: [{
+				id: "70BEF2C5623F8290"
+				item: "avaritia_delight:infinity_taco"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["686013F1273D58AC"]
+			id: "59F8B995D23A43CA"
+			tasks: [{
+				id: "1C543D05AC591A7A"
+				item: "avaritia_delight:mobs_stew"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			id: "3BE6A4927890DA26"
+			tasks: [{
+				id: "58BA01D8116058E2"
+				item: "avaritia_delight:slice_of_endless_cake"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			id: "3D685EE27CEF70A9"
+			tasks: [{
+				id: "586743EE01282F37"
+				item: "avaritia_delight:infinity_popsicle"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			id: "65007668E7A21BAA"
+			tasks: [{
+				id: "368C33FB51F4EB4E"
+				item: "avaritia_delight:star_pie"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			id: "53D5A12672C6E704"
+			tasks: [{
+				id: "44EBF8EEAF6C60EA"
+				item: "avaritia:densest_neutron_collector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			id: "1F9E89F876677E38"
+			tasks: [{
+				id: "56F13FF05003A00D"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			id: "0609ECF0509D2DDD"
+			tasks: [{
+				id: "42CA501A60FE4401"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			id: "3E8C2D8EE525EDEB"
+			tasks: [{
+				id: "5816E208E537D8DB"
+				item: "avaritia:infinity"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5DA4DE6E051CC6D8"]
+			id: "1A8CFB2890A299FB"
+			tasks: [{
+				id: "5DF06542E04CF888"
+				item: "projectexpansion:final_power_flower"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"1F9E89F876677E38"
+				"0609ECF0509D2DDD"
+				"3E8C2D8EE525EDEB"
+				"1A8CFB2890A299FB"
+				"65007668E7A21BAA"
+				"53D5A12672C6E704"
+				"3BE6A4927890DA26"
+				"3D685EE27CEF70A9"
+				"0D5D22EF0B5DB84B"
+				"2CAE8E97BC95CE49"
+				"59F8B995D23A43CA"
+				"3F58AEDB6BF35E0E"
+				"59850EE891EA142A"
+			]
+			description: [
+				"{quest.final.star.desc1}"
+				""
+				"{quest.final.star.desc2}"
+			]
+			id: "6588F68B1AEFC065"
+			rewards: [{
+				id: "6AD4837652480EDF"
+				item: "projecte:tome"
+				type: "item"
+			}]
+			shape: "none"
+			size: 4.0d
+			tasks: [{
+				id: "3F27C4B67D51981A"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			title: "{quest.final.star.title}"
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	title: "{chapter.final.title}"
+}

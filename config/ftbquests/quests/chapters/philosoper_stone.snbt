@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "philosoper_stone"
+	group: "15CBA2246BFF426C"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "517EFE6A6A189259"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F9290E0E875785C"]
+			hide_until_deps_complete: true
+			id: "10C96C36DBC859C6"
+			rewards: [{
+				id: "02CAF8EE81BBCB6E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "24C8AC92497DABC8"
+					type: "checkmark"
+				}
+				{
+					id: "378B529D1753C4F3"
+					item: "extendedcrafting:ultimate_table"
+					type: "item"
+				}
+			]
+			title: "{quest.stone.start.title}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5FC8B3130124F867"
+				"1036EA54F8D483C1"
+				"348593A3AF50CB98"
+				"388142C67A07D2B5"
+				"4A5418CE3CFC1E01"
+				"58EE9BFD33EDA555"
+				"2776B72070D6A39D"
+				"7A9E5337FDE565D2"
+				"4AB89058BB01EE55"
+				"692998EE2BE371BF"
+				"170A85842D78EDE4"
+			]
+			description: ["{quest.stone.main.desc}"]
+			id: "439CE8F45BED8696"
+			rewards: [
+				{
+					id: "15A37357BFD54CAD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:life_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "792E72DE8328BA56"
+					item: "projecte:dark_matter"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "6E86050A5FA23A41"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2A071DFACD0A1EA1"
+				"6F9290E0E875785C"
+			]
+			hide_until_deps_complete: true
+			id: "170A85842D78EDE4"
+			rewards: [{
+				id: "00EF90EAF3F149E8"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "24D739FAAD5AC796"
+				item: "kubejs:calamity_heart"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"218D2FC7BAC31C14"
+				"6F9290E0E875785C"
+			]
+			hide_until_deps_complete: true
+			id: "4AB89058BB01EE55"
+			rewards: [{
+				id: "2973653588E86468"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "239B08C05F9018A0"
+				item: "kubejs:arcane_mastery_core"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"31BB820E0F0A12CD"
+				"6F9290E0E875785C"
+			]
+			hide_until_deps_complete: true
+			id: "692998EE2BE371BF"
+			rewards: [{
+				id: "3275962E3A1872B7"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "691FE0F03CCE9072"
+				item: "kubejs:eternal_flux_core"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["10C96C36DBC859C6"]
+			id: "7A9E5337FDE565D2"
+			rewards: [{
+				id: "679D42A5AC423CC7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4A6078A513FFC1E0"
+				item: "extendedcrafting:ultimate_singularity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10C96C36DBC859C6"]
+			id: "58EE9BFD33EDA555"
+			rewards: [{
+				id: "3911A72C24D2AD1F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5881A9EABA1DEB9A"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10C96C36DBC859C6"]
+			id: "348593A3AF50CB98"
+			rewards: [{
+				id: "4DC90AF6FC6000C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "554D953B738934B3"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10C96C36DBC859C6"]
+			id: "4A5418CE3CFC1E01"
+			rewards: [{
+				id: "4F0E741BB6169A9E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "38037CE782B458B1"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10C96C36DBC859C6"]
+			id: "388142C67A07D2B5"
+			rewards: [{
+				id: "6F8D38689BC332AA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7140DD3C58EAA54F"
+				item: "enderio:frank_n_zombie"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10C96C36DBC859C6"]
+			id: "5FC8B3130124F867"
+			rewards: [{
+				id: "4C9AE396F2C65BE2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "09EED0ED345F92ED"
+				item: "allthemodium:allthemodium_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10C96C36DBC859C6"]
+			id: "1036EA54F8D483C1"
+			rewards: [{
+				id: "444E585188FA52CD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "68D8E0D951EB5C6B"
+				item: "allthemodium:unobtainium_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10C96C36DBC859C6"]
+			id: "2776B72070D6A39D"
+			rewards: [{
+				id: "158FAF91215F2EC0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "096B85AB2EA3F5D9"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	title: "{chapter.ps.title}"
+}

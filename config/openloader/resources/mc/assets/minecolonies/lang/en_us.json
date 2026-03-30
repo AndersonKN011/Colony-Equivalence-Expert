@@ -1,0 +1,10 @@
+{
+    "minecolonies.research.refined_gold.name": "Refined Gold Engineering",
+    "minecolonies.research.refined_gold_stage.name": "Unlocks crafting for the Advanced Crafting Table",
+    
+    "minecolonies.research.refined_diamond.name": "Refined Diamond Engineering",
+    "minecolonies.research.refined_diamond_stage.name": "Unlocks crafting for the Elite Crafting Table",
+    
+    "minecolonies.research.refined_emerald.name": "Refined Emerald Engineering",
+    "minecolonies.research.refined_emerald_stage.name": "Unlocks crafting for the Ultimate Crafting Table"
+}

@@ -1,0 +1,9 @@
+{
+    "effect": true,
+    "name": "minecolonies.research.refined_diamond_stage.name",
+    "levels": [
+        1
+    ],
+    "command": "gamestage add <ownerName> elite_table_research true",
+    "offlineRunnable": false
+}

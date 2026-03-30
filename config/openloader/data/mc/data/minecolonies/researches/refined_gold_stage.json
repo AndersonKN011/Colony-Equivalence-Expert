@@ -1,0 +1,9 @@
+{
+    "effect": true,
+    "name": "minecolonies.research.refined_gold_stage.name",
+    "levels": [
+        1
+    ],
+    "command": "gamestage add <ownerName> advanced_table_research true",
+    "offlineRunnable": false
+}

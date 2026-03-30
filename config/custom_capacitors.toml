@@ -1,0 +1,48 @@
+# Custom Capacitors Config
+# Remove # to enable, add # to disable
+# EnderIO default capacitors: Basic=1, Double-Layer=2, Octadic=3
+# level = can be any number like 3.5, 4.2, or 6.39, not just whole numbers!
+# color = hex RGB (e.g. FF0000 = red, 00FF00 = green)
+# To add more capacitors, copy one of the entries below and edit the values
+
+[[capacitor]]
+id = "tier4_capacitor"
+name = "Tier 4 Capacitor"
+level = 4
+glow = false
+color = "4488FF"
+
+[[capacitor]]
+id = "tier5_capacitor"
+name = "Tier 5 Capacitor"
+level = 5
+glow = false
+color = "FF8844"
+
+[[capacitor]]
+id = "tier6_capacitor"
+name = "Tier 6 Capacitor"
+level = 6
+glow = true
+color = "FF44FF"
+
+# [[capacitor]]
+# id = "mythril_capacitor"
+# name = "Mythril Capacitor"
+# level = 5
+# glow = true
+# color = "44FFFF"
+
+# [[capacitor]]
+# id = "half_tier_capacitor"
+# name = "Half Tier Capacitor"
+# level = 3.5
+# glow = false
+# color = "88FF88"
+
+# [[capacitor]]
+# id = "precision_capacitor"
+# name = "Precision Capacitor"
+# level = 7.25
+# glow = true
+# color = "FFAA00"

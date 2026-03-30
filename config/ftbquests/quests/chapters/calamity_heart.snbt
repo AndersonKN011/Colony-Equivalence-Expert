@@ -1,0 +1,286 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "calamity_heart"
+	group: "15CBA2246BFF426C"
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:calamity_heart"
+	id: "2C119FC6F5C32296"
+	images: [{
+		click: "https://www.youtube.com/watch?v=ERFPjABnArI&list=PLB8Rr5Xojkr5T1qoPr_4JdETiBkF4qF6r"
+		height: 3.0d
+		image: "crazyae2addons:item/builder_pattern"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 9.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D4A26125A4ECD33"]
+			hide_until_deps_complete: true
+			id: "0D5BD7B36899A2C1"
+			rewards: [{
+				id: "001E56E590230407"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "663D6D99B26AED37"
+					type: "checkmark"
+				}
+				{
+					id: "368BAA0BC9B89704"
+					item: "extendedcrafting:elite_table"
+					type: "item"
+				}
+			]
+			title: "{quest.calamity.start.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1431C76024D8C07D"
+				"2CC8DC61D25928B9"
+				"789B8B5880D5E42A"
+				"386A226E92BA96E2"
+				"77E916F1B6A88299"
+				"3BDC8CAAC5FE6CF9"
+				"36521BCF1919E634"
+				"1E153ACBECDDE817"
+				"769AE49714A8A568"
+				"1A023C91B689DC0D"
+			]
+			description: ["{quest.calamity.core.desc}"]
+			id: "2A071DFACD0A1EA1"
+			rewards: [{
+				id: "20EDBA700961D4F6"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:special/flight"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "2E2AD7EF1722CC14"
+				item: "kubejs:calamity_heart"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "77E916F1B6A88299"
+			rewards: [{
+				id: "34330D1C97493A21"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "cyclic:snowwalk"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FF1916F4FCA5355"
+				item: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "769AE49714A8A568"
+			rewards: [{
+				id: "0B2A58014A03EFCD"
+				item: {
+					Count: 1
+					id: "beachparty:sunglasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0306B60B15F0599F"
+				item: "mowziesmobs:sol_visage"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "36521BCF1919E634"
+			rewards: [{
+				id: "426C18B05747868D"
+				item: "ars_nouveau:jump_ring"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48FB280C232457C1"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "1A023C91B689DC0D"
+			rewards: [{
+				id: "021C7F3FCE8ADE67"
+				item: "botanypotstiers:creative_black_glazed_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A0C2DB414C685A5"
+				item: "bosses_of_mass_destruction:void_thorn"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "1E153ACBECDDE817"
+			rewards: [{
+				id: "1D6B68D682D002EA"
+				item: {
+					Count: 1
+					id: "cyclic:charm_water"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A019A93C6FA7D83"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "3BDC8CAAC5FE6CF9"
+			rewards: [{
+				id: "080348B449DA9B69"
+				item: {
+					Count: 1
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:endermite"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F72DCA94FEA0B53"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "789B8B5880D5E42A"
+			rewards: [{
+				id: "07CD0220F46761ED"
+				item: "allthemodium:unobtainium_upgrade_smithing_template"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D69E29841051D98"
+				item: "allthemodium:piglich_heart"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "386A226E92BA96E2"
+			rewards: [{
+				id: "2F59CB87B9A9453B"
+				item: {
+					Count: 1
+					id: "cyclic:charm_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C4FB7B17F7BEEFC"
+				item: "cataclysm:ignitium_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			id: "1431C76024D8C07D"
+			rewards: [{
+				id: "4DA66C8F15543317"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65014234615BA7C4"
+				item: "cataclysm:cursium_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D5BD7B36899A2C1"]
+			description: ["{quest.calamity.singularity.desc}"]
+			id: "2CC8DC61D25928B9"
+			rewards: [{
+				count: 9
+				id: "310A6E764AA59FF5"
+				item: "crazyae2addons:super_singularity"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C417B426A5D9DAE"
+				item: "crazyae2addons:super_singularity_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "{chapter.calamity.title}"
+}

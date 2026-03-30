@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "inicio"
+	group: ""
+	icon: "minecraft:map"
+	id: "7B2C3D4E5F6A7B8C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"{quest.welcome.desc1}"
+			""
+			"{quest.welcome.desc2}"
+			""
+			"{quest.welcome.desc3}"
+		]
+		icon: "minecraft:totem_of_undying"
+		id: "12E387CA0CCB2B1A"
+		rewards: [{
+			count: 16
+			id: "67B7C45AA135109D"
+			item: "minecraft:cooked_beef"
+			type: "item"
+		}]
+		size: 2.0d
+		tasks: [{
+			id: "542B56B8BFF32B35"
+			title: "{quest.welcome.task}"
+			type: "checkmark"
+		}]
+		title: "{quest.welcome.title}"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "{chapter.welcome.title}"
+}

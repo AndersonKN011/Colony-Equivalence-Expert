@@ -1,0 +1,9 @@
+{
+    "effect": true,
+    "name": "minecolonies.research.refined_emerald_stage.name",
+    "levels": [
+        1
+    ],
+    "command": "gamestage add <ownerName> ultimate_table_research true",
+    "offlineRunnable": false
+}

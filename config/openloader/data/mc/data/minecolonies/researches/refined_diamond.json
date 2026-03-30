@@ -1,0 +1,26 @@
+{
+  "branch": "minecolonies:technology",
+  "name": "minecolonies.research.refined_diamond.name",
+  "parentResearch": "minecolonies:refined_gold",
+  "researchLevel": 2,
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "kubejs:refined_diamond_frame",
+      "quantity": 16
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:mechanic",
+      "level": 4
+    }
+  ],
+  "effects": [
+    {
+      "id": "minecolonies:refined_diamond_stage"
+    }
+  ],
+  "research-time": 6000
+}

@@ -1,0 +1,31 @@
+{
+  "branch": "minecolonies:technology",
+  "name": "minecolonies.research.refined_emerald.name",
+  "parentResearch": "minecolonies:refined_diamond",
+  "researchLevel": 3,
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "kubejs:refined_emerald_frame",
+      "quantity": 8
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:university",
+      "level": 5
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "minecolonies:alchemist",
+      "level": 5
+    }
+  ],
+  "effects": [
+    {
+      "id": "minecolonies:refined_emerald_stage"
+    }
+  ],
+  "research-time": 12000
+}

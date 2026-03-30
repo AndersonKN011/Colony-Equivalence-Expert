@@ -1,0 +1,762 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "itens_teis"
+	group: ""
+	id: "0447857F22622723"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{quest.useful.intro.desc}"]
+			id: "502600541554AFC3"
+			rewards: [{
+				id: "6DA2751ED8A5EFC1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7ECB866F5E0F17ED"
+				title: "{quest.useful.intro.title}"
+				type: "checkmark"
+			}]
+			title: "{quest.useful.intro.title}"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.gadgets.desc}"]
+			id: "739D26DC866BC1C9"
+			rewards: [{
+				id: "28545FA87A9B311A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "47F9D67CE3AA7E91"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "3816E8708150700F"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+				{
+					id: "065D67B4B4AE3569"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{quest.useful.gadgets.title}"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.wands.desc}"]
+			id: "01A2FD08CD54F7C5"
+			rewards: [{
+				id: "78B7C5BFAC2D8CBC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0B81689E2EE50B90"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "{quest.useful.wands.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.wands.title}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.compass.desc}"]
+			id: "32E749474E625B6C"
+			rewards: [{
+				id: "4DF1564A12E4AEDF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "0AE52FD85896BE0C"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "641F5706BBEC88AB"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{quest.useful.compass.title}"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.mbtool.desc}"]
+			id: "1337C96528B334CF"
+			rewards: [{
+				id: "1F441541C9D80034"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "47AA1110C9D6FF56"
+				item: {
+					Count: 1
+					id: "mbtool:mbtool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{quest.useful.mbtool.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.routers.desc}"]
+			id: "192FA270B29445DA"
+			rewards: [{
+				id: "0E941ADFE0A751ED"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "1DF3F1588D5CF346"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					id: "636FADAEB71B21E3"
+					item: "modularrouters:blank_module"
+					type: "item"
+				}
+			]
+			title: "{quest.useful.routers.title}"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.entangled.desc}"]
+			id: "3A19FD64A5EDB28E"
+			rewards: [{
+				id: "590963FFA28C8380"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "1F21873A3ED25D02"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0BB343D44E3AA8ED"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			title: "{quest.useful.entangled.title}"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.flux.desc}"]
+			id: "3014447C984F79EC"
+			rewards: [{
+				id: "183B193C305EA3FA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "27FF26DE04AF2072"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+				{
+					id: "577CAD8A9B6DB74D"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "612947E47DFE8175"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "{quest.useful.flux.title}"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.pipez.desc}"]
+			id: "6B6429AAC759C753"
+			rewards: [{
+				id: "02DA8C8028DFF623"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "6779B05448515DEF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pipez:item_pipe"
+								}
+								{
+									Count: 1b
+									id: "pipez:energy_pipe"
+								}
+								{
+									Count: 1b
+									id: "pipez:fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "pipez:gas_pipe"
+								}
+								{
+									Count: 1b
+									id: "pipez:universal_pipe"
+								}
+							]
+						}
+					}
+					title: "{quest.useful.pipez.title}"
+					type: "item"
+				}
+				{
+					id: "3A47992EFF653B07"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pipez:basic_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:improved_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:advanced_upgrade"
+								}
+								{
+									Count: 1b
+									id: "pipez:ultimate_upgrade"
+								}
+							]
+						}
+					}
+					title: "Pipez Upgrades"
+					type: "item"
+				}
+				{
+					id: "3611EACA9A44CA8D"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "{quest.useful.pipez.title}"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.torcherino.desc}"]
+			id: "40C3202BDFD220E6"
+			rewards: [{
+				id: "42C88F260AF55C74"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5E707C08D4A8B467"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "torcherino"
+					}
+				}
+				title: "{quest.useful.torcherino.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.torcherino.title}"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.megatorch.desc}"]
+			id: "63E983E4A98D8871"
+			rewards: [{
+				id: "01323776FD0B93B2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "710F54DD4FC80208"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "{quest.useful.megatorch.title}"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.tiab.desc}"]
+			id: "35F18C8BD8AC0C0C"
+			rewards: [{
+				id: "4C1B23C9A02157E8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "14039AC4970E56CE"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{quest.useful.tiab.title}"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.magnets.desc}"]
+			id: "5BEC42FF6D7F8B8B"
+			rewards: [{
+				id: "39628F5DEDCED944"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5049FE83EA330204"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplemagnets:basicmagnet"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "simplemagnets:advancedmagnet"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "{quest.useful.magnets.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.magnets.title}"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.backpacks.desc}"]
+			id: "6E0A932CE17E1835"
+			rewards: [{
+				id: "22177B2AEA13827D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4806981B1FD7E806"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:copper_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:iron_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:gold_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:diamond_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:netherite_backpack"
+							}
+						]
+					}
+				}
+				title: "{quest.useful.backpacks.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.backpacks.title}"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.trashcans.desc}"]
+			id: "698A335CA2956FE4"
+			rewards: [{
+				id: "7ABBB0D4DDAD294D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "125C5A23330809A9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "trashcans:item_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:liquid_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:energy_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:ultimate_trash_can"
+							}
+						]
+					}
+				}
+				title: "{quest.useful.trashcans.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.trashcans.title}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.enderstorage.desc}"]
+			id: "1F1209AF36A5882E"
+			rewards: [{
+				id: "183FE3A3E350CF13"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "6E6C5A36E5792B31"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+				{
+					id: "20AF79ACAB8145EA"
+					item: "enderstorage:ender_tank"
+					type: "item"
+				}
+			]
+			title: "{quest.useful.enderstorage.title}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.crafter.desc}"]
+			id: "0031E13DDD31ED24"
+			rewards: [{
+				id: "6EA8262B7F549B97"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "13AC0F61B946320A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolsutility:crafter1"
+							}
+							{
+								Count: 1b
+								id: "rftoolsutility:crafter2"
+							}
+							{
+								Count: 1b
+								id: "rftoolsutility:crafter3"
+							}
+						]
+					}
+				}
+				title: "{quest.useful.crafter.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.crafter.title}"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.merequester.desc}"]
+			id: "0428603D96867C57"
+			rewards: [{
+				id: "11C314DECDAA91EA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "429D318A8B068189"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			title: "{quest.useful.merequester.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.elevator.desc}"]
+			id: "44A4AADE521D6AE0"
+			rewards: [{
+				id: "0EEDAA639474F7BE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "531DA6824CF2C655"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "elevatorid"
+					}
+				}
+				title: "{quest.useful.elevator.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.elevator.title}"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.booster.desc}"]
+			id: "102C06E8B56FE017"
+			rewards: [{
+				id: "5F775A03B0EA4F3D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4B28DE54A1FF5ABF"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "aeinfinitybooster"
+					}
+				}
+				title: "{quest.useful.booster.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.booster.title}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.cardboard.desc}"]
+			id: "17B91734D956161D"
+			rewards: [{
+				id: "209642A53099F673"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2C31E8F02818E062"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			title: "{quest.useful.cardboard.title}"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.packaged.desc}"]
+			id: "71BFBA377EE4F929"
+			rewards: [{
+				id: "19B8693123030C35"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2759D7D3E1204DE7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "packagedauto"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "packagedavaritia"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "packageddraconic"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "packagedexcrafting"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "packagedexexcrafting"
+								}
+							}
+						]
+					}
+				}
+				title: "{quest.useful.packaged.title}"
+				type: "item"
+			}]
+			title: "{quest.useful.packaged.title}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.spawner.desc}"]
+			id: "7AE3E2F080A04935"
+			rewards: [{
+				id: "75E67D8910873392"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0ACDE0BBCF45D705"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			title: "{quest.useful.spawner.title}"
+			x: -6.0d
+			y: 1.0d
+		}
+	]
+	title: "{chapter.useful.title}"
+}

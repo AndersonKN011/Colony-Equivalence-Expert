@@ -1,0 +1,12 @@
+
+#World generation options.
+[World]
+	#Should Mithril Ore generate in the world?
+	generateMithrilOre = true
+	#Should Nether Platinum Ore generate in the world?
+	generateNetherPlatinumOre = true
+	#Should End Iridium Ore generate in the world?
+	generateEndIridiumOre = true
+	#Should Nether Mithril Ore generate in the world?
+	generateNetherMithrilOre = true
+

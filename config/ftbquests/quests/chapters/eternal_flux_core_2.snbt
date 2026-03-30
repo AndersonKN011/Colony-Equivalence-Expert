@@ -1,0 +1,209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternal_flux_core_2"
+	group: "15CBA2246BFF426C"
+	icon: "kubejs:eternal_flux_core"
+	id: "0C4B5F55AC27EFBA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["136D3F68471277AF"]
+			hide_until_deps_complete: true
+			id: "27F513E726BDC392"
+			rewards: [{
+				id: "530A60D370429381"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "3794C6B890693CD7"
+					type: "checkmark"
+				}
+				{
+					id: "28F57D9175CA3502"
+					item: "extendedcrafting:advanced_table"
+					type: "item"
+				}
+			]
+			title: "{quest.flux.start.title}"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"43C631EF7C8B1A8C"
+				"0A7ACF975CF8CEB2"
+				"34925F9D9BD676B9"
+				"0F0699F8E28139F9"
+				"7AC6F350713F34A2"
+				"71669EDDD32A60A3"
+				"7F7DEA2B651EF6B6"
+				"3F8C39AF89C801D4"
+			]
+			description: ["{quest.flux.core.desc}"]
+			id: "31BB820E0F0A12CD"
+			rewards: [{
+				id: "0A98273D3C015578"
+				item: "solarflux:sp_de.chaotic"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "2D079E5FB3EF6A58"
+				item: "kubejs:eternal_flux_core"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["27F513E726BDC392"]
+			id: "34925F9D9BD676B9"
+			rewards: [{
+				count: 4
+				id: "25C4C630655108C4"
+				item: "draconicevolution:large_chaos_frag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DBDEDFD10D7957D"
+				item: "draconicevolution:reactor_core"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27F513E726BDC392"]
+			id: "7AC6F350713F34A2"
+			rewards: [{
+				count: 4
+				id: "6DE7E9C42FECD56C"
+				item: "velvet_advanced_alloys:manyedrite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E3134AA41D975B5"
+				item: "velvet_advanced_alloys:manyedrite_upgrade_augment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["27F513E726BDC392"]
+			id: "0A7ACF975CF8CEB2"
+			rewards: [{
+				count: 4
+				id: "4644CF6A06F215A3"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FA2E2E7BFDAFB4E"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27F513E726BDC392"]
+			id: "0F0699F8E28139F9"
+			rewards: [{
+				id: "00F23644C28A738B"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FB344A2023D57D0"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["27F513E726BDC392"]
+			id: "43C631EF7C8B1A8C"
+			rewards: [{
+				count: 4
+				id: "16FC690AAC78F756"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FCFDE7E0C9E94B2"
+				item: "mysticalagradditions:insanium_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27F513E726BDC392"]
+			id: "71669EDDD32A60A3"
+			rewards: [{
+				id: "12CE184024D652FE"
+				item: "chemlib:polonium_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6470E34EA0138330"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27F513E726BDC392"]
+			id: "7F7DEA2B651EF6B6"
+			rewards: [{
+				id: "5961713E7558D028"
+				item: {
+					Count: 1
+					id: "industrialforegoing:speed_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5194D1470FDB00CC"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27F513E726BDC392"]
+			id: "3F8C39AF89C801D4"
+			rewards: [{
+				id: "327F5CFB3623C0DA"
+				item: {
+					Count: 1
+					id: "powah:battery_nitro"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DB0B34EDB1C0156"
+				item: "powah:nitro_crystal_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+	title: "{chapter.flux.title}"
+}

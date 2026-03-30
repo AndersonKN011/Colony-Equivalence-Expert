@@ -1,0 +1,8 @@
+{
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "tconstruct:cinderslime_ingot"
+  },
+  "color": "f52742"
+}

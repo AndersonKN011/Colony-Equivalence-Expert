@@ -1,0 +1,7 @@
+
+#Provided by AddonAPI:
+#Module Options
+[modules]
+	"Default Compat" = true
+	"Mekanism Compat" = true
+
