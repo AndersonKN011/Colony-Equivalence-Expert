@@ -1,24 +1,30 @@
-🏗️ Colony Equivalence
-Welcome to my first modpack project! This pack was born from a personal desire to blend two worlds I love: heavy technical automation and the civilization management of MineColonies.
+# 🏗️ Your Modpack Name Here
 
-🌟 About the Project
-This modpack was initially built for my own playthrough. As I developed the integrations and quest lines, I felt the result was interesting enough to share with the community.
+---
 
-The main focus is the balance between technology and society. You don't just build machines; you build a civilization that relies on and drives your technological progress.
+## 🌟 About the Project
+Welcome to my **first modpack project**! This pack was born from a personal desire to blend two worlds I love: **heavy technical automation** and the civilization management of **MineColonies**.
 
-⚙️ What to Expect:
-Deep Integration: Heavy automation (Mekanism, Industrial Foregoing, Powah) integrated into your colony's growth.
+Initially built for my own playthrough, I decided to improve and share it with the community after seeing how the integrations and quest lines were shaping up.
 
-Quest-Driven Progression: Organized task lines to guide you from the Early Game to advanced technologies.
+### ⚙️ What to Expect:
+*   **Deep Integration:** Heavy automation (Mekanism, Industrial Foregoing, Powah) integrated into your colony's growth.
+*   **Quest-Driven Progression:** Organized task lines to guide you from the Early Game to advanced technologies.
+*   **Crafting Challenge:** Custom recipes via *KubeJS* and *Extended Crafting* to make the journey more rewarding.
 
-Crafting Challenge: Custom recipes via KubeJS and Extended Crafting to make the journey more rewarding.
+---
 
-⚠️ Developer's Note
-As this is my first modpack, it is a work in progress.
+## ⚠️ Developer's Note
+Since this is my **first modpack**, please keep in mind:
+*   **Bugs:** Occasional technical issues or mod conflicts may occur.
+*   **Balancing:** Some recipes or progression steps might not be 100% balanced yet.
 
-Bugs: Occasional technical issues may occur.
+Your feedback is essential! If you find anything strange or have suggestions, feel free to share them.
 
-Balancing: Some recipes or progression steps might not be 100% balanced yet.
-Your feedback is essential! If you find anything strange or have suggestions, feel free to report them.
+---
 
-Link to Download: ...
+### 🛠️ Technical Requirements
+*   **RAM:** At least **8GB** is recommended for a stable experience.
+*   **Platform:** Designed for the CurseForge launcher.
+
+LINK TO DOWNLOAD: ...
