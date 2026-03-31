@@ -1,4 +1,4 @@
-# 🏗️ Your Modpack Name Here
+# 🏗️ Colony Equivalence
 
 ---
 
