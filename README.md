@@ -27,4 +27,4 @@ Your feedback is essential! If you find anything strange or have suggestions, fe
 *   **RAM:** At least **8GB** is recommended for a stable experience.
 *   **Platform:** Designed for the CurseForge launcher.
 
-LINK TO DOWNLOAD: ...
+LINK TO DOWNLOAD [HERE](https://www.curseforge.com/minecraft/modpacks/colony-equivalence)
