@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "civilizao"
 	group: "15CBA2246BFF426C"
+	hide_quest_until_deps_complete: true
 	icon: "minecolonies:blockhuttownhall"
 	id: "4B97B06129F1EA8F"
 	order_index: 0

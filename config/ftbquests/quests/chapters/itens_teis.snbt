@@ -757,6 +757,23 @@
 			x: -6.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["Provides an infinite source of water in a single block. You can use buckets on it or connect pipes to automate your systems."]
+			id: "52862E24B0F8FC44"
+			rewards: [{
+				id: "784561A4974156A8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C90FA1DA8321552"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
 	]
 	title: "{chapter.useful.title}"
 }

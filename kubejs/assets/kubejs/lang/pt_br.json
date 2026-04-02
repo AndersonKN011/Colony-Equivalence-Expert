@@ -103,11 +103,12 @@
     "quest.useful.packaged.desc": "Essenciais para automação de larga escala. Eles permitem que o AE2 lide com receitas complexas do Extended Crafting sem travar o sistema.",
     "quest.useful.spawner.title": "Custom Spawners",
     "quest.useful.spawner.desc": "Graças ao Apotheosis, você pode coletar qualquer Spawner usando Toque de Seda e melhorá-lo com diversos itens.",
+    "quest.useful.sink.desc": "Fornece uma fonte infinita de água em um único bloco. Você pode usar baldes nela ou conectar cabos para automatizar seus sistemas.",
     
     "chapter.welcome.title": "Bem-vindo!",
     "quest.welcome.title": "O Início da Jornada",
     "quest.welcome.task": "Entendido!",
     "quest.welcome.desc1": "Olá! Muito obrigado por baixar e jogar este modpack. Ele foi criado com dedicação para oferecer uma experiência de progressão fluida e divertida.",
     "quest.welcome.desc2": "Se você encontrar bugs, tiver sugestões de balanceamento ou apenas quiser deixar um feedback, sinta-se à vontade para comentar na página oficial do projeto no &bCurseForge&r.",
-    "quest.welcome.desc3": "Boa sorte, e que a sua automação seja eficiente! &6- DFastix&r"
+    "quest.welcome.desc3": "O caminho à frente é longo, mas a recompensa vale o esforço. Bom jogo! &6- DFastix&r"
 }

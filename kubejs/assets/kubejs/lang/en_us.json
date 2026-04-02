@@ -103,11 +103,12 @@
     "quest.useful.packaged.desc": "Essential for large-scale automation. They allow AE2 to handle complex recipes from Extended Crafting without locking up the system.",
     "quest.useful.spawner.title": "Custom Spawners",
     "quest.useful.spawner.desc": "Thanks to Apotheosis, you can collect any Spawner using Silk Touch and improve it with various items.",
+    "quest.useful.sink.desc": "Provides an infinite source of water in a single block. You can use buckets on it or connect pipes to automate your systems.",
 
     "chapter.welcome.title": "Welcome!",
     "quest.welcome.title": "The Journey Begins",
     "quest.welcome.task": "Got it!",
     "quest.welcome.desc1": "Hello! Thank you so much for downloading and playing this modpack. It was built with care to provide a smooth and fun progression experience.",
     "quest.welcome.desc2": "If you find any bugs, have balancing suggestions, or just want to leave feedback, feel free to comment on the official &bCurseForge&r project page.",
-    "quest.welcome.desc3": "Good luck, and may your automation be efficient! &6- DFastix&r"
+    "quest.welcome.desc3": "The journey ahead is long, but the rewards are well worth the effort. Enjoy the game! &6- DFastix&r"
 }

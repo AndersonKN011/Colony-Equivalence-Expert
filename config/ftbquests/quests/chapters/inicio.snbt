@@ -5,6 +5,15 @@
 	group: ""
 	icon: "minecraft:map"
 	id: "7B2C3D4E5F6A7B8C"
+	images: [{
+		click: "https://www.curseforge.com/minecraft/modpacks/colony-equivalence"
+		height: 3.0d
+		image: "ftbquests:textures/curseforge_logo.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: -3.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
