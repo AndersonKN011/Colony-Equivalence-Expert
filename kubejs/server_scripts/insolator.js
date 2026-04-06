@@ -36,7 +36,13 @@ ServerEvents.recipes(event => {
             "result": [
                 {
                     "item": seed,
+                    "count": 2,
                     "chance": 1
+                },
+                {
+                    "item": seed,
+                    "count": 1,
+                    "chance": 0.25
                 }
             ],
             "energy_mod": 2.0,

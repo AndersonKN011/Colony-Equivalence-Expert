@@ -25,6 +25,10 @@
 		#(AppliedE) Maps Applied Energistics 2 charger recipes.
 		enabled = true
 
+	[CraftingMapper.ChippedAlchemyBenchMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Alchemy Bench Mapper. Required Mods: [chipped]
+		enabled = true
+
 	[CraftingMapper.MekChemicalInfuser]
 		#Maps Mekanism chemical infuser recipes.
 		enabled = true
@@ -43,6 +47,14 @@
 
 	[CraftingMapper.MekMetallurgicInfuser]
 		#Maps Mekanism metallurgic infuser recipes.
+		enabled = true
+
+	[CraftingMapper.ChippedGlassblowerMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Glassblower Mapper. Required Mods: [chipped]
+		enabled = true
+
+	[CraftingMapper.ChippedCarpentersTableMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Carpenters Table Mapper. Required Mods: [chipped]
 		enabled = true
 
 	[CraftingMapper.FallbackRecipeType]
@@ -161,6 +173,10 @@
 		#Maps Mekanism activating and centrifuging recipes.
 		enabled = true
 
+	[CraftingMapper.ChippedBotanistWorkbenchMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Botanist Workbench Mapper. Required Mods: [chipped]
+		enabled = true
+
 	[CraftingMapper.MekItemStackToItemStack]
 		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
 		enabled = true
@@ -199,6 +215,10 @@
 
 	[CraftingMapper.BotaniaPureDaisyMapper]
 		#ProjectE-Integration Recipe Mapper for Botania Pure Daisy Mapper. Required Mods: [botania]
+		enabled = true
+
+	[CraftingMapper.ChippedLoomTableMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Loom Table Mapper. Required Mods: [chipped]
 		enabled = true
 
 	[CraftingMapper.MekFluidToFluid]
@@ -245,12 +265,20 @@
 		#ProjectE-Integration Recipe Mapper for Alchemistry Atomizer Mapper. Required Mods: [alchemistry]
 		enabled = true
 
+	[CraftingMapper.ChippedMechanistWorkbenchMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Mechanist Workbench Mapper. Required Mods: [chipped]
+		enabled = true
+
 	[CraftingMapper.ExtendedCraftingEnderCrafterMapper]
 		#Maps extended crafting Ender Crafter recipes
 		enabled = true
 
 	[CraftingMapper.AlchemistryFissionMapper]
 		#ProjectE-Integration Recipe Mapper for Alchemistry Fission Mapper. Required Mods: [alchemistry]
+		enabled = true
+
+	[CraftingMapper.ChippedMasonTableMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Mason Table Mapper. Required Mods: [chipped]
 		enabled = true
 
 	[CraftingMapper.ImmersiveEngineeringMetalPressMapper]

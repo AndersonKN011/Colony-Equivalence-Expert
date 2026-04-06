@@ -759,7 +759,7 @@
 		}
 		{
 			dependencies: ["502600541554AFC3"]
-			description: ["Provides an infinite source of water in a single block. You can use buckets on it or connect pipes to automate your systems."]
+			description: ["{quest.useful.sink.desc}"]
 			id: "52862E24B0F8FC44"
 			rewards: [{
 				id: "784561A4974156A8"

@@ -142,6 +142,9 @@
     "mortar": true,
     "cauldron": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,
