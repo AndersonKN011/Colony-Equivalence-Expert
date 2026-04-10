@@ -53,6 +53,7 @@ ServerEvents.recipes(event => {
   event.remove({output: 'chicken_roost:c_moonstone'})
   event.remove({output: 'chicken_roost:c_manainfused'})
   event.remove({output: 'chicken_roost:c_hepatizon'})
+  event.remove({output: 'chicken_roost:c_pigiron'})
 
   event.remove({id: 'chicken_roost:roost/tier1/roostv1_ink'})
   event.remove({id: 'chicken_roost:roost/tier1/roostv1_wool'})
@@ -72,11 +73,29 @@ ServerEvents.recipes(event => {
   event.remove({id: 'chicken_roost:roost/tier7/roostv7_tungstensteel'})
   event.remove({id: 'chicken_roost:roost/tier8/roostv8_adamantium'})
 
+  // Pigiron Chicken
+  event.custom({
+    "type": "chicken_roost:basic_breeding",
+    "food": {
+      "tag": "c:seeds/tier1orup"
+    },
+    "left-chicken": {
+      "item": "chicken_roost:c_iron"
+    },
+    "right-chicken": {
+      "item": "chicken_roost:c_gold"
+    },
+    "time": 20,
+    "output": {
+      "item": "chicken_roost:c_pigiron"
+    }
+  })
+
   //Manyullyn Chicken
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier7orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_cobald"
@@ -94,7 +113,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier6orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_obsidian"
@@ -112,7 +131,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier6orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_iron"
@@ -130,7 +149,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier6orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_iron"
@@ -148,7 +167,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier5orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_blazerod"
@@ -166,7 +185,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier5orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_gold"
@@ -184,7 +203,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier3orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_stone"
@@ -202,7 +221,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier3orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "tag": "c:chickens/wood"
@@ -220,7 +239,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier2orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_coal"
@@ -238,7 +257,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier7orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_netherstar"
@@ -256,7 +275,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier8orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_allthemodium"
@@ -274,7 +293,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "chicken_roost:basic_breeding",
     "food": {
-      "tag": "c:seeds/tier9orup"
+      "tag": "c:seeds/tier1orup"
     },
     "left-chicken": {
       "item": "chicken_roost:c_vibranium"

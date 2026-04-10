@@ -164,4 +164,32 @@ ServerEvents.recipes(event => {
       X: 'kubejs:refined_diamond_frame'
     }
   )
+
+  event.shaped(
+    'chicken_roost:c_flint',
+    [
+      'EEE',
+      'AXA',
+      'EEE'
+    ],
+    {
+      E: 'minecraft:flint',
+      A: 'chicken_roost:c_vanilla',
+      X: 'chicken_roost:chicken_food_tier_1'
+    }
+  )
+
+  event.shaped(
+    'chicken_roost:c_sand',
+    [
+      'EEE',
+      'AXA',
+      'EEE'
+    ],
+    {
+      E: 'minecraft:sand',
+      A: 'chicken_roost:c_vanilla',
+      X: 'chicken_roost:chicken_food_tier_1'
+    }
+  )
 })
