@@ -54,6 +54,7 @@ ServerEvents.recipes(event => {
   event.remove({output: 'chicken_roost:c_manainfused'})
   event.remove({output: 'chicken_roost:c_hepatizon'})
   event.remove({output: 'chicken_roost:c_pigiron'})
+  event.remove({output: 'chicken_roost:c_salt'})
 
   event.remove({id: 'chicken_roost:roost/tier1/roostv1_ink'})
   event.remove({id: 'chicken_roost:roost/tier1/roostv1_wool'})
@@ -72,6 +73,24 @@ ServerEvents.recipes(event => {
   event.remove({id: 'chicken_roost:roost/tier6/roostv6_biofuel'})
   event.remove({id: 'chicken_roost:roost/tier7/roostv7_tungstensteel'})
   event.remove({id: 'chicken_roost:roost/tier8/roostv8_adamantium'})
+
+  // Salt Chicken
+  event.custom({
+    "type": "chicken_roost:basic_breeding",
+    "food": {
+      "tag": "c:seeds/tier1orup"
+    },
+    "left-chicken": {
+      "item": "chicken_roost:c_water"
+    },
+    "right-chicken": {
+      "item": "chicken_roost:c_sand"
+    },
+    "time": 20,
+    "output": {
+      "item": "chicken_roost:c_salt"
+    }
+  })
 
   // Pigiron Chicken
   event.custom({
