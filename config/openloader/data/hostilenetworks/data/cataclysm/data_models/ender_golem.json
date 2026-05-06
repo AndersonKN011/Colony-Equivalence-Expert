@@ -1,0 +1,45 @@
+{
+    "conditions": [
+        {
+            "modid": "cataclysm",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "entity": "cataclysm:ender_golem",
+    "variants": [],
+    "name": "entity.cataclysm.ender_golem",
+    "name_color": "#800080",
+    "display_nbt": {},
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.ender_golem",
+    "fabricator_drops": [
+        {
+            "item": "cataclysm:void_core",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+        3,
+        27,
+        177,
+        627
+    ],
+    "data_per_kill": [
+        1,
+        4,
+        10,
+        18
+    ]
+}

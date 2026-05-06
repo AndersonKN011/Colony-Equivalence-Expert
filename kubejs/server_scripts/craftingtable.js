@@ -9,6 +9,32 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'torcherino:double_compressed_torcherino' })
 
   event.shaped(
+    'botania:mana_tablet',
+    [
+      'DDD',
+      'DXD',
+      'DDD'
+    ],
+    {
+      D: 'botania:livingrock',
+      X: 'botania:mana_pearl'
+    }
+  )
+
+  event.shaped(
+    'botania:mana_tablet',
+    [
+      'DDD',
+      'DXD',
+      'DDD'
+    ],
+    {
+      D: 'botania:livingrock',
+      X: 'botania:mana_diamond'
+    }
+  )
+
+  event.shaped(
     '2x tconstruct:cinderslime_ingot',
     [
       'AAA',
