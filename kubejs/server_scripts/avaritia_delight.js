@@ -1,4 +1,9 @@
 ServerEvents.recipes(event => {
-  // Isso remove todas as receitas que pertencem ao tipo customizado do Extrator
-  event.remove({ type: 'avaritia_delight:crop_extractor' })
+  // Remove as receitas de processamento interno mantendo o registro do tipo estrutural intacto
+  event.remove({
+    mod: 'avaritia_delight',
+    type: 'avaritia_delight:crop_extractor'
+  })
+    // Remove a receita de fabricação da máquina em si
+  event.remove({ output: 'avaritia_delight:crop_extractor' })
 })

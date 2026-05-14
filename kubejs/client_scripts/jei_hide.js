@@ -54,5 +54,6 @@ JEIEvents.hideItems(event => {
         'chicken_roost:c_moonstone',
         'chicken_roost:c_manainfused',
         'chicken_roost:c_hepatizon',
+        'avaritia_delight:crop_extractor'
     ])
 })
