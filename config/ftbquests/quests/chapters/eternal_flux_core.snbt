@@ -43,7 +43,10 @@
 				"5C3996823C975336"
 				"6F50C92A4382F499"
 			]
-			description: ["{quest.arcane.core.desc}"]
+			description: [
+				"{quest.arcane.core.desc}"
+				"{quest.arcane.core.catalyst_tip}"
+			]
 			id: "218D2FC7BAC31C14"
 			rewards: [
 				{

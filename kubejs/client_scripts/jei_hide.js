@@ -54,6 +54,10 @@ JEIEvents.hideItems(event => {
         'chicken_roost:c_moonstone',
         'chicken_roost:c_manainfused',
         'chicken_roost:c_hepatizon',
-        'avaritia_delight:crop_extractor'
+        'avaritia_delight:crop_extractor',
+        'botania:spark',
+        'botania:corporea_spark',
+        'botania:corporea_spark_master',
+        'botania:corporea_spark_creative'
     ])
 })

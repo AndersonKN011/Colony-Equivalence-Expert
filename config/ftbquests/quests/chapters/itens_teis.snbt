@@ -774,6 +774,42 @@
 			x: -6.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.transmutation.desc}"]
+			id: "2A3B4C5D6E7F8A9B"
+			rewards: [{
+				id: "1B2C3D4E5F6A7B8C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3C4D5E6F7A8B9C0D"
+				item: "appliede:emc_module"
+				type: "item"
+			}]
+			title: "{quest.useful.transmutation.title}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["502600541554AFC3"]
+			description: ["{quest.useful.energycell.desc}"]
+			id: "4D5E6F7A8B9C0D1E"
+			rewards: [{
+				id: "5E6F7A8B9C0D1E2F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6F7A8B9C0D1E2F3A"
+				item: "expandedae:exp_energy_cell"
+				type: "item"
+			}]
+			title: "{quest.useful.energycell.title}"
+			x: 3.0d
+			y: 2.5d
+		}
 	]
 	title: "{chapter.useful.title}"
 }

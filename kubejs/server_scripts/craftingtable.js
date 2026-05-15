@@ -1,6 +1,10 @@
 ServerEvents.recipes(event => {
   // Removendo o antigo primeiro (sempre bom garantir)
   event.remove({ output: 'botanicalextramachinery:catalyst_mana_infinity' })
+  event.remove({ output: 'botania:spark' })
+  event.remove({ output: 'botania:corporea_spark' })
+  event.remove({ output: 'botania:corporea_spark_master' })
+  event.remove({ output: 'botania:corporea_spark_creative' })
   event.remove({ output: 'infinitestoragecell:infinite_cell_component' })
   event.remove({ output: 'extendedae_plus:infinity_biginteger_cell' })
   event.remove({ output: 'projecte:condenser_mk1' })

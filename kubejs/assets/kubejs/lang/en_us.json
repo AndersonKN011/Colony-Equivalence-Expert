@@ -36,6 +36,7 @@
     "chapter.arcane.title": "Arcane Mastery Core",
     "quest.arcane.start.title": "Towards Arcane Mastery",
     "quest.arcane.core.desc": "The essence of &d&lMAGIC&r&r fused into a single core. This item is the fundamental component for Elite recipes and the next step in your journey towards total transmutation.",
+    "quest.arcane.core.catalyst_tip": "&6&lTIP:&r&r After crafting the core, check the custom recipe for the &d&lInfinity Mana Catalyst&r&r to plan your next steps.",
 
     "chapter.flux.title": "Eternal Flux Core",
     "quest.flux.start.title": "Towards Eternal Flux Core",
@@ -104,6 +105,10 @@
     "quest.useful.spawner.title": "Custom Spawners",
     "quest.useful.spawner.desc": "Thanks to Apotheosis, you can collect any Spawner using Silk Touch and improve it with various items.",
     "quest.useful.sink.desc": "Provides an infinite source of water in a single block. You can use buckets on it or connect pipes to automate your systems.",
+    "quest.useful.transmutation.title": "ME Transmutation Module",
+    "quest.useful.transmutation.desc": "Allows AE2 to auto-craft items using EMC. &c&lImportant:&r&r Each craft consumes AE power (EMC/2000 AE per operation), which can drain your energy reserves quickly in late game.",
+    "quest.useful.energycell.title": "Expanded Energy Cell",
+    "quest.useful.energycell.desc": "An essential upgrade when using AppliedE. Since transmutation crafts consume EMC/2000 AE per operation, large crafts can stall your entire ME system. AE2 does not account for energy in its time estimate and will show infinite Time Remaining. Build this to avoid crafting bottlenecks.",
 
     "chapter.welcome.title": "Welcome!",
     "quest.welcome.title": "The Journey Begins",

@@ -111,4 +111,42 @@ event.remove({ output: 'projectexpansion:final_star' })
     L: 'avaritia_delight:infinity_taco',
     M: 'avaritia:densest_neutron_collector'
   })
+
+  // Solar Flux Reborn - Neutronium Solar Panel (Elite Table - 7x7)
+  event.recipes.extendedcrafting.shaped_table('solarflux:sp_avaritia.neutronium', [
+    'UNNNNNU',
+    'NMPCPMN',
+    'NPUCUPN',
+    'NCCXCCN',
+    'NPUCUPN',
+    'NMPCPMN',
+    'UNNNNNU'
+  ], {
+    U: 'allthemodium:unobtainium_block',
+    N: 'avaritia:neutron_ingot',
+    M: 'avaritia:crystal_matrix_ingot',
+    P: 'mekanism:pellet_polonium',
+    C: 'solarflux:sp_de.chaotic',
+    X: 'kubejs:eternal_flux_core'
+  })
+
+  // Solar Flux Reborn - Infinity Solar Panel (Ultimate Table - 9x9)
+  event.recipes.extendedcrafting.shaped_table('2x solarflux:sp_avaritia.infinity', [
+    'IIIIIIIII',
+    'IDDDDDDDI',
+    'IDAAAAADI',
+    'IDASSSADI',
+    'IDANXNADI',
+    'IDASSSADI',
+    'IDAAAAADI',
+    'IDDDDDDDI',
+    'IIIIIIIII'
+  ], {
+    I: 'avaritia:infinity',
+    D: 'draconicevolution:chaos_shard',
+    A: 'mekanism:pellet_antimatter',
+    S: 'extendedcrafting:ultimate_singularity',
+    X: 'kubejs:calamity_heart',
+    N: 'solarflux:sp_avaritia.neutronium'
+  })
 })

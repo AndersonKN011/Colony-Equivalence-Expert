@@ -36,6 +36,7 @@
     "chapter.arcane.title": "Arcane Mastery Core",
     "quest.arcane.start.title": "Rumo ao Arcane Mastery",
     "quest.arcane.core.desc": "A essência da &d&lMAGIA&r&r fundida em um só núcleo. Este item é o componente fundamental para as receitas de Elite e o próximo passo na sua jornada rumo à transmutação total.",
+    "quest.arcane.core.catalyst_tip": "&6&lDICA:&r&r Após fabricar o core, confira a receita customizada do &d&lInfinity Mana Catalyst&r&r para planejar seus próximos passos.",
 
     "chapter.flux.title": "Eternal Flux Core",
     "quest.flux.start.title": "Rumo ao Eternal Flux Core",
@@ -104,6 +105,10 @@
     "quest.useful.spawner.title": "Custom Spawners",
     "quest.useful.spawner.desc": "Graças ao Apotheosis, você pode coletar qualquer Spawner usando Toque de Seda e melhorá-lo com diversos itens.",
     "quest.useful.sink.desc": "Fornece uma fonte infinita de água em um único bloco. Você pode usar baldes nela ou conectar cabos para automatizar seus sistemas.",
+    "quest.useful.transmutation.title": "ME Transmutation Module",
+    "quest.useful.transmutation.desc": "Permite ao AE2 fabricar itens automaticamente usando EMC. &c&lImportante:&r&r Cada craft consome energia AE (EMC/2000 AE por operação), o que pode drenar suas reservas de energia rapidamente no late game.",
+    "quest.useful.energycell.title": "Expanded Energy Cell",
+    "quest.useful.energycell.desc": "Um upgrade essencial ao usar AppliedE. Como os crafts de transmutação consomem EMC/2000 AE por operação, crafts grandes podem travar todo o sistema ME. O AE2 não calcula energia na estimativa de tempo e mostrará Tempo Restante infinito. Construa isto para evitar gargalos de crafting.",
     
     "chapter.welcome.title": "Bem-vindo!",
     "quest.welcome.title": "O Início da Jornada",
